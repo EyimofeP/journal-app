@@ -1,0 +1,16 @@
+nav.navbar.navbar-expand-lg{
+    background-color: #1a237e; 
+}
+
+div.card-header{
+    background-color: #1a237e; 
+}
+
+#home-button{
+    background-color: #1a237e; 
+    color: #fff;
+}
+
+.errorlist li{
+    color: red;
+}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}
+Welcome
+{% endblock %}
+{% block content %}
+{% for journal in journals %}
+<ul>
+    <li>{{journal.title}}</li>
+</ul>
+{% endfor %}
+{% endblock %}
